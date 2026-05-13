@@ -1,8 +1,4 @@
-import parta.CarrierSpecificStrategy;
-import parta.DistanceBasedStrategy;
-import parta.FlatRateStrategy;
-import parta.ShippingStrategy;
-import parta.WeightBasedStrategy;
+import parta.*;
 
 public class ShippingPolicyFactory {
 
