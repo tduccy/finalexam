@@ -1,3 +1,9 @@
+import parta.CarrierSpecificStrategy;
+import parta.DistanceBasedStrategy;
+import parta.FlatRateStrategy;
+import parta.ShippingStrategy;
+import parta.WeightBasedStrategy;
+
 public class ShippingPolicyFactory {
 
     public static ShippingStrategy getStrategy(String type, double weight) {
