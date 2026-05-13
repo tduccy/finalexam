@@ -1,3 +1,8 @@
+package partc;
+
+import parta.*;
+import partb.*; 
+
 public abstract class ShippingDecorator implements ShippingStrategy {
     private ShippingStrategy wrappedStrategy;
 

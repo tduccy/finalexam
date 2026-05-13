@@ -1,3 +1,8 @@
+package partc;
+
+import parta.*;
+import partb.*; 
+
 public class HeavyLoadDecorator extends ShippingDecorator {
 
     public HeavyLoadDecorator(ShippingStrategy wrappedStrategy) {

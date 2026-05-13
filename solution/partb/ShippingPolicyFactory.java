@@ -1,3 +1,4 @@
+package partb;
 import parta.*;
 
 public class ShippingPolicyFactory {
