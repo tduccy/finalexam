@@ -1,3 +1,5 @@
+package parta;
+
 public class DistanceBasedStrategy implements ShippingStrategy{
     @Override
     public double calculate(double weight, double distance){
