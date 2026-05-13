@@ -15,7 +15,7 @@ public class SimpleShippingApp extends JFrame {
 
     public SimpleShippingApp() {
 
-        setTitle("Shipping Calculator (No Patterns)");
+        setTitle("Shipping Calculator");
         setSize(400, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
